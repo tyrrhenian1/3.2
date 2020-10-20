@@ -1,0 +1,15 @@
+﻿<Window x:Class="_3._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3._2"
+        mc:Ignorable="d"
+        Title="Сумма положительных чисел" Height="270.242" Width="281.233">
+    <Grid Margin="0,0,0,4">
+        <TextBox x:Name="countBox" HorizontalAlignment="Left" Height="23" Margin="76,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" PreviewKeyUp="countBox_PreviewKeyUp"/>
+        <Button x:Name="Calculate" Content="Вычислить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="87,131,0,0" Height="37" Click="Calculate_Click"/>
+        <TextBlock x:Name="resultBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Margin="76,186,0,10" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,13,0,0" TextWrapping="Wrap" Text="Ввести целые числа в форму, нажимая Enter после каждого числа, результат сложения положительных чисел будет выведен, либо при вводе 0, либо при нажатии на кнопку" VerticalAlignment="Top" Height="70" Width="251"/>
+    </Grid>
+</Window>
